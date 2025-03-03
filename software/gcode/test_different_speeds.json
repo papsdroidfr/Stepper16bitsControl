@@ -1,0 +1,16 @@
+{
+    "_COMMENT": "This test move the motor at different speed",
+    "DRIVER": "TMC2208",
+    "FREQ_SM": "500_000",
+    "MODE": "LOOP",
+    "GCODE_SEQ": { 
+        "0": ["a1_s200_d1_v0", "a0_s100_d1_v0", "a1_s200_d0_v3", "a0_s50_d0_v3", "a1_s50_d1_v0", "a0_s100_d1_v0", "a1_s50_d0_v10", "a0_s10_d0_v10"],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": []
+    }
+}
